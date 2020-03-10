@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(355deg, rgba(197,119,233,1) 0%, rgba(128,116,241,1) 51%, rgba(147,112,219,1) 100%) fixed;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: calc(100% - 245px);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    padding: 0;
+    margin: auto;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+input[type=text]:focus {
+    border-bottom: 1px solid mediumpurple;
+    box-shadow: 0 1px 0 mediumpurple;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    width: 240px;
+    background: mediumpurple;
+    border-radius: 2px;
+    letter-spacing: .5px;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+button:hover {
+    background-color: #a380eb;
+}
+
+.box {
+    width: 60%;
+    background-color: white;
+    margin: .5rem auto 1rem auto;
+    padding: 12px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+        0 3px 1px -2px rgba(0,0,0,0.12),
+        0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+.main-box {
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.short-url {
+    display: inline-block;
+    width: 30%;
+    font-weight: 400;
+}
+
+.long-url {
+    display: inline-block;
+    width: 70%;
+}
+
+a {
+    color: black;
+    text-underline: none;
+}
