@@ -4,6 +4,8 @@
 
 It’s a simple web application which could help you shorten your URL.
 
+Live demo: http://urlshort.tmweb.ru/
+
 ## Installation
 
 1. Clone the repository and `cd` into it.
